@@ -220,7 +220,14 @@
   nav #main-nav {
     background: rgba(255, 255, 255, 0.9); }
     nav #main-nav ul li a, nav .white-nav #main-nav ul li a, .white-nav nav #main-nav ul li a {
-      color: #000; } }
+      color: #000; }
+  #main-header,
+  #discover,
+  #video,
+  .reservation,
+  #contact-info,
+  .page-header {
+    background-attachment: scroll; } }
 
 @media (max-height: 420px), (max-width: 420px) {
   #main-header .header-content .xl-heading {
