@@ -227,7 +227,7 @@
   .reservation,
   #contact-info,
   .page-header {
-    background-attachment: scroll; } }
+    background-attachment: scroll !important; } }
 
 @media (max-height: 420px), (max-width: 420px) {
   #main-header .header-content .xl-heading {
