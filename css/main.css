@@ -236,6 +236,11 @@
     font-size: 0.8rem; } }
 
 @media (max-height: 420px) {
+  .preloader .status {
+    width: 200px;
+    height: 200px; }
+    .preloader .status .dots {
+      top: 70%; }
   .page-header .header-content .tag {
     display: none; } }
 
