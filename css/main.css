@@ -236,11 +236,6 @@
     font-size: 0.8rem; } }
 
 @media (max-height: 420px) {
-  .preloader .status {
-    width: 200px;
-    height: 200px; }
-    .preloader .status .dots {
-      top: 70%; }
   .page-header .header-content .tag {
     display: none; } }
 
@@ -295,7 +290,7 @@ header i {
     height: 300px; }
     .preloader .status .dots {
       position: absolute;
-      top: 65%;
+      top: 80%;
       background: url("../img/preloader/dots.gif") no-repeat center center;
       width: 89px;
       height: 30px; }
