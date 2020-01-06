@@ -9,12 +9,12 @@ $(function() {
   function showHideNav() {
     if ($(window).scrollTop() > 50) {
       // Show white nav
-      $('nav').addClass('white-nav');
+      $('.navbar').addClass('white-nav');
       // Show dark logo
       $('.navbar-brand img').attr('src', 'img/logo_dark.png');
     } else {
       // Hide white nav
-      $('nav').removeClass('white-nav');
+      $('.navbar').removeClass('white-nav');
       // Show white logo
       $('.navbar-brand img').attr('src', 'img/logo.png');
     }
